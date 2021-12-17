@@ -1,0 +1,135 @@
+html,
+body {
+  overflow: auto;
+}
+
+body {
+  margin: 0;
+  background-color: hsl(217, 54%, 11%);
+  font-family: "Outfit", sans-serif;
+  min-height: 100vh;
+}
+
+.container {
+  width: 350px;
+  height: 580px;
+  background-color: hsl(216, 50%, 16%);
+  margin: 150px auto 170px auto;
+  border-radius: 10px;
+  box-shadow: 20px 30px 50px rgba(0, 0, 0, 0.3),
+    -20px 30px 50px rgba(0, 0, 0, 0.3);
+}
+
+.main-img {
+  width: 300px;
+  border-radius: 10px;
+  margin: 25px 25px auto 25px;
+  display: inline-block;
+}
+
+.eye-img {
+  display: inline-block;
+  position: absolute;
+  margin: 25px auto auto -325px;
+  padding: 126px;
+  opacity: 0;
+  border-radius: 10px;
+}
+
+.eye-img:hover {
+  opacity: 100%;
+  background-color: hsla(178, 100%, 50%, 0.5);
+}
+
+h1 {
+  margin-left: 25px;
+  color: hsl(0, 0%, 100%);
+  font-size: 22px;
+}
+
+h1:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+.desc {
+  margin: auto 25px;
+  font-size: 18px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+
+.middle-container {
+  margin: 20px 25px;
+}
+
+.cost {
+  color: hsl(178, 100%, 50%);
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.eth-img {
+  position: relative;
+  margin-right: 5px;
+}
+
+.countdown {
+  color: hsl(215, 51%, 70%);
+  font-weight: lighter;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-top: -20px;
+}
+
+.clock-img {
+  position: relative;
+  margin-right: 5px;
+}
+
+hr {
+  margin: 20px 0px 20px 0px;
+  border: none;
+  height: 1px;
+  background: hsl(215, 51%, 70%);
+  opacity: 20%;
+}
+
+.bottom-container {
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  align-items: center;
+}
+
+.jw:hover {
+  color: hsl(178, 100%, 50%);
+}
+
+.avatar {
+  width: 30px;
+  margin-right: 15px;
+  border: 1px solid hsl(0, 0%, 100%);
+  border-radius: 50%;
+}
+
+span {
+  color: hsl(215, 51%, 70%);
+  margin-right: 5px;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  color: hsl(0, 0%, 100%);
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
